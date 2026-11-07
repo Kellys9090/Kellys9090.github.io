@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: bisque;
+}
 header {
-    background-color: rgb(10, 220, 220);
-    color: #9c528b;
+    background-color: #bdc4a7;
+    color: black;
     display:flex;
     justify-content: space-evenly;
-     align-items: center
+    align-items: center;
 }
-
+main {
+    margin: 20px;
+}
 .centered {
     text-align: center;
 }
@@ -18,4 +23,22 @@ header {
 .intro {
     max-width: 500px;
     text-align: left;
+}
+h1, h2 {
+    margin-bottom: 5px;
+}
+ul {
+    margin-left: 20px;
+}
+footer {
+    margin: 20px;
+}
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+#title-size {
+    font-size: 60px;
 }
